@@ -1,0 +1,5 @@
+ALTER TABLE livro
+    ALTER COLUMN autor TYPE VARCHAR(100);
+
+    ALTER TABLE livro
+        ALTER COLUMN ano_publicacao DROP NOT NULL;
